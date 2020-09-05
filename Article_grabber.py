@@ -10,7 +10,7 @@ import sys
 class myApp:
 	def __init__ (self, master):
 
-		self.url_label = tk.Label(master, text="ENTER URL OF THE ARTCLE")
+		self.url_label = tk.Label(master, text="ENTER URL OF THE ARTICLE")
 		self.url_label.grid(row=0, column=0, padx=10, pady=10)
 
 		self.url_entry = tk.Entry(master, width=75)
